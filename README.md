@@ -31,8 +31,10 @@ npm run start
 
 ## Usage
 
-As it opens you have immediate access to the text editor. You can also click the install button to get it run offline.
 ![image](./assets/Screenshot%202023-03-08%20200913.png)
+As it opens you have immediate access to the text editor. You can also click the install button to get it run offline.
+![image](./assets/install.png)
+If the install button does not work you will still be able to install by clicking this button in the browser.
 
 ## License
 

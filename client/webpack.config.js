@@ -33,9 +33,9 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Just Another Text Editor",
+        name: " Just Another Text Editor",
         short_name: "JATE",
-        description: "text editor with an offline mode",
+        description: "text editor with offline mode",
         background_color: "#225ca3",
         theme_color: "#225ca3",
         start_url: "/",
@@ -53,7 +53,7 @@ module.exports = () => {
     module: {
       rules: [
         {
-          test: /\.css$/i,
+          test: /\.css$/,
           use: ["style-loader", "css-loader"],
         },
         {
